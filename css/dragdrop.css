@@ -1,0 +1,19 @@
+
+label {
+  /* line-height: 32px; */
+}
+
+/* for safari */
+*[draggable=true] {
+  -khtml-user-drag: element;
+  cursor: move;
+}
+
+#window3 {
+  /* border: 3px dashed #ccc; */
+  /* padding: 10px; */
+  /* background: #fff; */
+  /* min-height: 200px; */
+/*  overflow-y: auto;*/
+}
+

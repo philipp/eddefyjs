@@ -1,0 +1,78 @@
+.component {
+	
+	opacity:0.8; 
+	filter:alpha(opacity=80);
+	background-color:white;
+	color:black;
+	font-family:helvetica;
+	padding:0.5em; 
+	
+}
+
+.window { 
+	border:2px solid #346789; 
+ 	width:12em; 
+ 	height:4em;
+	left: 4em;
+	/* line-height: 3em;	 */
+	position:absolute; 
+	font-size:0.8em;
+	border-radius:0.5em;
+}
+
+.window h2.handle {
+	float: left;
+	margin-left: 1em;
+	width: 2em;
+	height: 0.5em;
+	border:3px dashed #998822;
+	background-color: green;
+}
+
+.window .edit {
+	float: right;
+	margin-right: 1em;
+	width: 2em;
+	background-color: blue;
+	height: 0.5em;
+	border:1px dashed #ee3377; 
+}
+
+.window a {
+	font-size: 1.8em;
+}
+
+#detail {
+	display: none;
+	height: 20em;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #897;
+	z-index: 25;
+	position: absolute;
+}
+
+.label {
+	border:1px solid #346789; 
+	padding:8px;
+	padding:8px;
+}
+.label:hover {
+border-color:#5d94a6;	
+}
+
+.l1 { 
+	font-size:13px;
+	 
+}
+
+.hl { border:3px solid red; }
+
+/*        SVG styles.  Apart from the fact that SVG uses far less memory than Canvas, you can style it!   
+.c1 path, .l1arrow { 
+	stroke-dasharray:40 20 40; 
+	stroke-linecap:round;
+	stroke-opacity:0.5;
+	fill-opacity:0.5;	
+}
+*/
