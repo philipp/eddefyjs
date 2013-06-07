@@ -1,20 +1,23 @@
 <!doctype html>
 <html>
 	<head>
-		<title>jsPlumb 1.4.1 - Dynamic Anchors Demonstration - jQuery</title>
+		<title>Business Path - Eddefy</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" href="css/dragdrop.css" />
-		<link rel="stylesheet" href="css/try1.css" />
+		<link rel="stylesheet" href="css/main.css" />
   </head>
-	<body data-demo-id="dynamicAnchorsDemo" data-library="jquery">
+	<body>
 		<script id="summary-template" type="text/x-handlebars-template">
 			
 		</script>
 		<script id="detail-template" type="text/x-handlebars-template">
 			<h1>{{title}}</h1>
 		</script>
+
+		<div id="pathChoices">
+			<select id="pathSelector" class="pathSelector" title="Select a Path"></select>
+		</div>
     <div id="main">
-			<div id="render"></div>
 			<div id="detail">DETAILS!!!!!</div>
 		</div>
 		<div id="sidebar">
@@ -31,9 +34,10 @@
 		<script src="js/insertion.js"></script>
 		<script src="js/jquery.watch.js"></script>
 
-		<!--  demo code -->
-		<script src="js/try1.js"></script>
-		<script src="js/try1-jquery.js"></script>
+		<!-- project-specific code -->
+		<script src="data/KNOWN_PATHS.js"></script>
+		<script src="js/pathcode.js"></script>
+		<script src="js/eddefy.js"></script>
 
 		<script src="js/dragdrop1.js"></script>
  </body>
